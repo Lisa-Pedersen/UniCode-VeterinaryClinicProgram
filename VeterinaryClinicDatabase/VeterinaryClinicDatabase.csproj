@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1A68AD87-38DD-4DCD-B997-ABE67B6942C9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VeterinaryClinicDatabase</RootNamespace>
+    <AssemblyName>VeterinaryClinicDatabase</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimalDataSet.cs">
+      <DependentUpon>AnimalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AnimalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AnimalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConditionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ConditionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Appointments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Appointments.Designer.cs">
+      <DependentUpon>Frm_Appointments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AppointmentsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppointmentsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDataSet.cs">
+      <DependentUpon>ClientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ClientDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ClientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Appointment_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Appointment_Details.Designer.cs">
+      <DependentUpon>Frm_Appointment_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Client_Access.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Client_Access.Designer.cs">
+      <DependentUpon>Frm_Client_Access.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Client_Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Client_Registration.Designer.cs">
+      <DependentUpon>Frm_Client_Registration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Invoices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Invoices.Designer.cs">
+      <DependentUpon>Frm_Invoices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Schedule.Designer.cs">
+      <DependentUpon>Frm_Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Clients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Clients.Designer.cs">
+      <DependentUpon>Frm_Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Menu.Designer.cs">
+      <DependentUpon>Frm_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Staff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Staff.Designer.cs">
+      <DependentUpon>Frm_Staff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Login.Designer.cs">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvoiceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MedicationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ObservedDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ObservedDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScheduleSlotDataSet.cs">
+      <DependentUpon>ScheduleSlotDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ScheduleSlotDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScheduleSlotDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleAnimalDataSet.cs">
+      <DependentUpon>SingleAnimalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleAnimalDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleAnimalDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleClientDataSet.cs">
+      <DependentUpon>SingleClientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleClientDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleClientDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleConditionDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleConditionDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleInvoiceDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleInvoiceDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleMedicationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleMedicationDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleScheduleSlotDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleScheduleSlotDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleSpecialtyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleSpecialtyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleStaffDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleStaffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SingleStaffSpecialtyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SingleStaffSpecialtyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SpecialtyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SpecialtyDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StaffDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StaffDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="StaffSpecialtyDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StaffSpecialtyDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frm_Appointments.resx">
+      <DependentUpon>Frm_Appointments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Appointment_Details.resx">
+      <DependentUpon>Frm_Appointment_Details.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Clients.resx">
+      <DependentUpon>Frm_Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Client_Access.resx">
+      <DependentUpon>Frm_Client_Access.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Client_Registration.resx">
+      <DependentUpon>Frm_Client_Registration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Invoices.resx">
+      <DependentUpon>Frm_Invoices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Menu.resx">
+      <DependentUpon>Frm_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Schedule.resx">
+      <DependentUpon>Frm_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Staff.resx">
+      <DependentUpon>Frm_Staff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Login.resx">
+      <DependentUpon>Frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="AnimalDataSet.xsc">
+      <DependentUpon>AnimalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AnimalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AnimalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AnimalDataSet.xss">
+      <DependentUpon>AnimalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="AppointmentsDataSet.xsc">
+      <DependentUpon>AppointmentsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AppointmentsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AppointmentsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AppointmentsDataSet.xss">
+      <DependentUpon>AppointmentsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClientDataSet.xsc">
+      <DependentUpon>ClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClientDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ClientDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClientDataSet.xss">
+      <DependentUpon>ClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConditionDataSet.xsc">
+      <DependentUpon>ConditionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ConditionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ConditionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ConditionDataSet.xss">
+      <DependentUpon>ConditionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvoiceDataSet.xsc">
+      <DependentUpon>InvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="InvoiceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>InvoiceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="InvoiceDataSet.xss">
+      <DependentUpon>InvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MedicationDataSet.xsc">
+      <DependentUpon>MedicationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="MedicationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>MedicationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="MedicationDataSet.xss">
+      <DependentUpon>MedicationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ObservedDataSet.xsc">
+      <DependentUpon>ObservedDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ObservedDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ObservedDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ObservedDataSet.xss">
+      <DependentUpon>ObservedDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="ScheduleSlotDataSet.xsc">
+      <DependentUpon>ScheduleSlotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ScheduleSlotDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScheduleSlotDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ScheduleSlotDataSet.xss">
+      <DependentUpon>ScheduleSlotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleAnimalDataSet.xsc">
+      <DependentUpon>SingleAnimalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleAnimalDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleAnimalDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleAnimalDataSet.xss">
+      <DependentUpon>SingleAnimalDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleClientDataSet.xsc">
+      <DependentUpon>SingleClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleClientDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleClientDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleClientDataSet.xss">
+      <DependentUpon>SingleClientDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleConditionDataSet.xsc">
+      <DependentUpon>SingleConditionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleConditionDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleConditionDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleConditionDataSet.xss">
+      <DependentUpon>SingleConditionDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleInvoiceDataSet.xsc">
+      <DependentUpon>SingleInvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleInvoiceDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleInvoiceDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleInvoiceDataSet.xss">
+      <DependentUpon>SingleInvoiceDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleMedicationDataSet.xsc">
+      <DependentUpon>SingleMedicationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleMedicationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleMedicationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleMedicationDataSet.xss">
+      <DependentUpon>SingleMedicationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleScheduleSlotDataSet.xsc">
+      <DependentUpon>SingleScheduleSlotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleScheduleSlotDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleScheduleSlotDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleScheduleSlotDataSet.xss">
+      <DependentUpon>SingleScheduleSlotDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleSpecialtyDataSet.xsc">
+      <DependentUpon>SingleSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleSpecialtyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleSpecialtyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleSpecialtyDataSet.xss">
+      <DependentUpon>SingleSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleStaffDataSet.xsc">
+      <DependentUpon>SingleStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleStaffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleStaffDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleStaffDataSet.xss">
+      <DependentUpon>SingleStaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleStaffSpecialtyDataSet.xsc">
+      <DependentUpon>SingleStaffSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SingleStaffSpecialtyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SingleStaffSpecialtyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SingleStaffSpecialtyDataSet.xss">
+      <DependentUpon>SingleStaffSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SpecialtyDataSet.xsc">
+      <DependentUpon>SpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SpecialtyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SpecialtyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="SpecialtyDataSet.xss">
+      <DependentUpon>SpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StaffDataSet.xsc">
+      <DependentUpon>StaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StaffDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StaffDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StaffDataSet.xss">
+      <DependentUpon>StaffDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StaffSpecialtyDataSet.xsc">
+      <DependentUpon>StaffSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="StaffSpecialtyDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>StaffSpecialtyDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="StaffSpecialtyDataSet.xss">
+      <DependentUpon>StaffSpecialtyDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

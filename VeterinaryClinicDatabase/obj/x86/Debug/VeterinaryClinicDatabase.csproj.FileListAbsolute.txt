@@ -1,0 +1,33 @@
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.exe.config
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Clients.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.frm_menu.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Staff.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Properties.Resources.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.csproj.GenerateResource.Cache
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.exe
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.pdb
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.exe
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.pdb
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.csprojResolveAssemblyReference.cache
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Schedule.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Login.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Client_Access.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Client_Registration.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.exe.config
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.exe
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.pdb
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.exe
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\bin\Debug\VeterinaryClinicDatabase.pdb
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.csprojResolveAssemblyReference.cache
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Clients.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Client_Access.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Client_Registration.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.frm_menu.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Schedule.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Staff.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Login.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Properties.Resources.resources
+H:\Comp219-16A\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.csproj.GenerateResource.Cache
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Appointments.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Appointment_Details.resources
+D:\University\COMP219-16A - Database Practice and Experience\Project\VeterinaryClinicDatabase\VeterinaryClinicDatabase\obj\x86\Debug\VeterinaryClinicDatabase.Frm_Invoices.resources
